@@ -41,7 +41,7 @@ function App() {
   }, [input]);
 
 
-  const updatedBooks = books.filter((item) => item.title.includes(update));
+  const updatedBooks = books.filter((item) => item.title.toLowerCase().includes(update.toLowerCase()));
 
   const handleDelete = (id) => {
     const updatedBooks = books.filter((item) => item.id !== id);
