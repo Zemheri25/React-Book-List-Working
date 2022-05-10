@@ -1,0 +1,23 @@
+.mainbook {
+    border: 1px solid #046582;
+    margin-top: 2rem;
+    box-shadow: 3px 3px 5px #046582;
+}
+
+.deletebutton {
+    margin-bottom: 2rem;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #046582;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #046582;
+    cursor: pointer;
+}
+
+.deletebutton:hover {
+    box-shadow: 1px 1px 5px #046582;
+}

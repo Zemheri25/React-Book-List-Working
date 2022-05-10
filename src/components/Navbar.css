@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.navbar {
+    background-color: #046582;
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputbook {
+    height: 2rem;
+    width: 15rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.head1 {
+    color: white;
+    font-family: 'Ms Madi', cursive;
+}
